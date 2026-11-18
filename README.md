@@ -58,6 +58,17 @@ This is all the script does, and Windows has a built-in dialog for it:
 
 To undo it, pick your old scheme (or **Windows Default**) from the **Sound Scheme** list.
 
+## On your phone too
+
+Maybe this already occurred to you, but it's easy to miss: these are ordinary `.wav` files, so they work as phone sounds too. There's no script for this part, just two steps on Android:
+
+1. Copy the files you want from the `sounds` folder into the phone's **`Notifications`**, **`Ringtones`** or **`Alarms`** folder. You can do it over USB, or send the files to yourself and move them with a file manager.
+2. Pick them in **Settings > Sound**, or in a single app's or contact's notification settings.
+
+Good matches: `pda_news` for notifications and messages, `radio_call` for the ringtone, and `pda_alarm` (or `bomb_timer`, if you like to live dangerously) for alarms. `pda_tip`, `pda_objective` and `contact_1` work well as per-app notification sounds.
+
+On iPhone, custom tones have to go through GarageBand or Finder/iTunes, which is a longer process. Search for "custom ringtone iPhone" for the current steps.
+
 ## For the curious
 
 - The script works only under `HKEY_CURRENT_USER\AppEvents\Schemes`, which is where Windows keeps sound schemes. It adds two schemes there and changes nothing else.
